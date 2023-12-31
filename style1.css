@@ -1,0 +1,91 @@
+.body{
+    /* background-color: black; */
+    margin: 0 5%;
+}
+
+
+
+.whitetext{
+    color: #fff;
+}
+.redtext{
+    color: red;
+}
+                                            /* navigation bar  */
+#navigation{
+    background-color: black;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+                                            /* home */
+#home{
+    background-color: black;
+}                                            
+.textpart{
+    height: 100%;
+    text-align: center;
+    padding: 15% 5% 0% 5%;
+}
+
+
+.imgpart{
+    height: 100%;
+}
+.bg-img{
+    width: 100%;
+}
+
+                                                /* About me */
+#about{
+    background-color: white;
+    padding: 5%  5%;
+}
+
+                                                /* my skills */
+#skills{
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    /* text-align: center; */
+} 
+#skills h2{
+    text-align: center;
+}
+.brain-img{
+    display: block;
+    margin: auto;
+}
+.skill-text{
+padding-top: 3%;
+padding-left: 15% !important;
+}
+
+.cpp-png, .html-png, .css-png,.javascript-png,.python-png , .dsa-png{
+height: 2rem;
+width: 2rem;
+margin-right: 20px;
+}
+
+
+                                            /* experience */
+#experience{
+    background-color: #fff;
+    padding: 3rem 2% 0;
+
+}
+#experience h2{
+    text-align: center;
+}
+
+                                            /* Projects */
+#projects{
+    background-color: #fff;
+    padding: 3rem 2% 0;
+    color: #fff;
+    background-color: #000;
+}
+#projects h2{
+    text-align: center;
+}

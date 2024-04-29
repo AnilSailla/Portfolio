@@ -1,6 +1,19 @@
-.body{
+body{
     /* background-color: black; */
     margin: 0 5%;
+    
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 550 !important;
+    font-size: 2.5rem !important;
+}
+h3{
+    font-family:"Merriweather", serif ;
+}
+
+h4{
+    font-family:  "Inconsolata", monospace;
 }
 
 
@@ -12,30 +25,50 @@
     color: red;
 }
                                             /* navigation bar  */
+#brand{
+    margin-left: 20px;
+    font-size: 30px;
+}
 #navigation{
     background-color: black;
+    padding: 0;
+    margin: 0;
 }
 .navbar-nav .nav-item .nav-link {
     color: white;
 }
 
+.navbar-toggler-icon
+{
+    width: 1em !important;
+    height: 1em !important;
+}
+
+
                                             /* home */
 #home{
     background-color: black;
+    /* margin-top: 55px; */    /* uncomment this when we make navbar fixed on top */
 }                                            
 .textpart{
-    height: 100%;
+    /* height: 100%; */
     text-align: center;
-    padding: 15% 5% 0% 5%;
+    padding: 13% 5% 0% 5%;
+}
+.big-text{
+    font-size: 4.5rem;
+    font-family:"Oswald", sans-serif;
 }
 
-
-.imgpart{
+/* .imgpart{
     height: 100%;
-}
+} */
+
 .bg-img{
     width: 100%;
 }
+
+
 
                                                 /* About me */
 #about{
@@ -54,7 +87,7 @@
     text-align: center;
 }
 .brain-img{
-    display: block;
+    display: block;   /*we can also use display:"flex" because margin: auto don't work on all types of display*/
     margin: auto;
 }
 .skill-text{
@@ -78,14 +111,95 @@ margin-right: 20px;
 #experience h2{
     text-align: center;
 }
+.exp
+{
+    margin-bottom: 3rem;
+}
+
 
                                             /* Projects */
 #projects{
-    background-color: #fff;
-    padding: 3rem 2% 0;
+    /* background-color: #fff; */
+    padding: 2rem 0 3rem;               /* top, left-right,bottom  */
     color: #fff;
     background-color: #000;
+    text-align: center;
+    
 }
-#projects h2{
+
+.all-projects     
+{
+    display: flex;  /* this 2 lines are to center the separate project content to center when their are not even in no */
+    justify-content: center;    /*to center the each projects */ 
+    
+}
+
+
+.project-cont a{
+    
+    text-decoration: none;
+    color: #fff;  
+}
+
+.project
+{    
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    text-align: center;
+    
+   
+}
+                /* hover effects */
+.project-cont h3{
+    transition:font-size 0.5s ease;
+}
+.project-cont h3:hover{
+    font-size:1.9rem ;
+}
+
+.project-image{
+    width: 100%;
+    height:auto;
+    transition: width 1s ease;
+}
+.project-image:hover{
+    /* filter: blur(2px); */
+    width: 103%;
+    
+}
+
+
+                                    /* contact me */
+#contact{
+    padding: 5rem 1.5rem;
+    
+}
+.contact-text h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-item{
+    margin: 0 10px;
+    color: black;
+    font-size: 25px;
+   
+}
+
+
+.details{
+    width: 90%;
+    margin: 10px 0;
+}
+
+form{
     text-align: center;
 }
+.btn-sub{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #C5C5C5;
+    
+}
+
